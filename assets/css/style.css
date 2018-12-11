@@ -26,6 +26,14 @@ html {
 .nav-item:last-child {
     border-right: none;
 }
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.Site-content {
+    flex: 1;
+}
 h1 {
     margin-left: 308px;
     margin-top: 0px;
@@ -70,12 +78,6 @@ p {
     width:20%;
     height:20%;
     float:left;
-}
-.col-md-4 {
-    float:left;
-    width: 40%;
-    position:relative;
-    margin: 10px 10px 10px 10px;
 }
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
