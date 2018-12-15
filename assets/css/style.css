@@ -27,6 +27,13 @@ html {
   .nav-item:last-child {
     border-right: none;
 }
+#logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+nav a:hover {
+  color: #5e7f7e;
+}
 h1 {
     margin-left: 308px;
     margin-top: 0px;
