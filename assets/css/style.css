@@ -39,7 +39,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container {
-    margin-bottom: 30px;
+    margin-bottom: auto;
     padding:15px;
     text-align: left;
     border: 1px solid #dddddd;
@@ -59,8 +59,8 @@ h2 {
     padding-top: 0;
     padding-bottom: 0;
 }
-.main {
-    margin-bottom: 20px;
+.container {
+    margin-bottom: 40px;
 }
 p {
     line-height: 1.5;
@@ -113,6 +113,8 @@ h3 {
     border-top: solid 10px #4aaaa5;
     z-index:3;
 }
-@media only screen (max-width 980px) {
-    
-}
+@media only screen and (max-width: 980px) {
+    .container {
+        margin-bottom:40 px;
+    }
+
